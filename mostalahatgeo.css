@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    background-image: url(fafa.jfif);
+    width: 100%;
+    height: 100vh;
+}
+.titers{
+    text-align: right;
+    color: aliceblue;
+    position: relative;
+    top: 20px;
+    
+    
+    
+}
+.titers h1{
+    padding-bottom: 18px;
+    text-align: center;
+}
+.titers h2{
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+}
+.fifi{
+    font-size: 19px;
+    position: relative;
+    top: 20px;
+    line-height: 40px;
+}
+
+
+    
+/* phone----------------------------------------*/
+@media screen and (max-width:600px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 11px;
+        color: white;
+    }
+    }

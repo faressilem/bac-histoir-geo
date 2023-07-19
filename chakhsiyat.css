@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fafa.jfif);
+    width: 100%;
+    height: 100vh;
+}
+.fares{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.sosa{
+    color: aliceblue;
+    position: relative;
+    top: 30px;
+    right: 35px;
+    font-size: 20px;
+    
+}
+@media  screen and (max-width:600px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url(fafa.jfif);
+        width: 100%;
+        height: 100vh;
+    }
+    .fares{
+        color: aliceblue;
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+    }
+    .sosa{
+        color: aliceblue;
+        position: relative;
+        top: 30px;
+        right: 35px;
+        font-size: 12px;
+    
+}
+}

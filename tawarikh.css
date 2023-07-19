@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 192, 203, 0.527);
+    
+}
+pre{
+    font-size: 20px;
+}
+@media screen and (max-width : 600px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgba(255, 192, 203, 0.521);
+        
+    }
+    pre{
+        font-size: 10px;
+    }
+    
+}
